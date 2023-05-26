@@ -1,0 +1,149 @@
+
+html, body, ul, ol, li, h1, h2, h3, p, img {
+    margin: 0;
+    padding: 0;
+  }
+  
+h1{
+
+  text-align: left;
+  
+}
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+
+
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .menu-baslik {
+    transition: all 0.2s ease; /* Geçiş süresi ve animasyon hızı ayarı */
+  }
+  
+  .menu-baslik:hover {
+    transform: scale(1.4); /* Büyüklük ölçeği ayarı */
+  }
+  
+  
+
+
+
+
+  header {
+    background-image: url("resimler/baner2.png");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position:center;
+  }
+  
+
+li{
+  font-size:larger;
+}
+
+
+  
+  header {
+    background-color: #333333;
+    padding: 120px;
+  }
+  
+  .blog-title {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .menu {
+    list-style-type: none;
+  }
+  
+
+
+
+  .menu li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .main-content {
+    width: 70%;
+    float: left;
+  }
+  
+  .sidebar {
+    width: 30%;
+    float: right;
+  }
+  
+
+
+
+  .sidebar-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+
+
+
+  .sidebar-list {
+    list-style-type: none;
+  }
+  
+  .sidebar-list li {
+    margin-bottom: 5px;
+  }
+  
+  .post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post-meta {
+    color: #888888;
+    margin-bottom: 10px;
+  }
+  
+
+
+  .post-image {
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+  
+
+
+
+
+
+
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+
+  footer {
+    background-color:rgb(63, 55, 120);
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+  

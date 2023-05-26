@@ -1,0 +1,38 @@
+p{
+    color:rgb(211, 19, 67);
+}
+
+
+  .example {
+    background-color: #3024d5;
+  } 
+
+  .example {
+    background-image: url("image.jpg");
+  }
+  .example {
+    background-repeat: no-repeat;
+  }
+  .example {
+    background-position: center;
+  }
+  .example {
+    background-attachment: fixed;
+  }
+  
+  @keyframes dikeyKaydirma {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100%);
+    }
+  }
+  
+  /* Örneğin bir <p> etiketini dikey kaydırma animasyonuyla hareketli hale getirme */
+  p ,li{
+    white-space: nowrap; /* Satır atlamasını engellemek için */
+    overflow: hidden; /* Taşan içeriği gizlemek için */
+    animation: dikeyKaydirma 2s linear infinite;
+  }
+  
